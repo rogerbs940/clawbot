@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "anthropic": {
+      "version": "1.0.0",
+      "installedAt": 1776377884378
+    },
+    "gemini": {
+      "version": "1.0.0",
+      "installedAt": 1776378234315
+    },
+    "ollama-local": {
+      "version": "1.1.0",
+      "installedAt": 1776378242832
+    },
+    "telegram": {
+      "version": "1.0.1",
+      "installedAt": 1777166892725
+    },
+    "verified-agent-identity": {
+      "version": "1.0.4",
+      "installedAt": 1777402566379
+    }
+  }
+}

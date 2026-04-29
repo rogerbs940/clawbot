@@ -1,0 +1,36 @@
+{
+  "name": "clawbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "dev": "node --watch agent.js",
+    "test": "node test-all.js",
+    "test-ai": "node test-ai.js",
+    "test-all": "node test-all.js",
+    "test-integration": "node test-integration.js",
+    "analyze-8004scan": "node analyze-8004scan.js",
+    "improve-score": "node improve-score.js",
+    "setup-telegram": "node setup-telegram.js",
+    "use-agent": "node use-agent.js",
+    "agent-tasks": "node agent-tasks.js",
+    "telegram-bot": "node telegram-bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerbs940/clawbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rogerbs940/clawbot/issues"
+  },
+  "homepage": "https://github.com/rogerbs940/clawbot#readme",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "dotenv": "^17.4.2"
+  }
+}
